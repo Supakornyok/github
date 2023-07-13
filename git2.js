@@ -12,7 +12,7 @@ const db = knex({
     port: process.env.MYSQL_PORT || 3306,
     user: process.env.MYSQL_USER || 'root',
     password: process.env.MYSQL_PASS || '',
-    database: process.env.MYSQL_DB || 'testlot',
+    database: process.env.MYSQL_DB || 'yoktest',
     supportBigNumber: true,
     timezone: '+7:00',
     dateStrings: true,
